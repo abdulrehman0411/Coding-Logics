@@ -1,0 +1,1 @@
+export function persistence(num: number): number { let i:number = 0; let product:number = 100; let sum:number = 0; let n:number[]= Array.from(String(num), Number) while(product>=10 && num>=10) { product = n[0]; for(i=0;i<n.length-1;i++){ product = product*n[i+1]; } n= Array.from(String(product), Number) sum++ } return sum }

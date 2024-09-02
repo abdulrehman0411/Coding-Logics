@@ -1,0 +1,1 @@
+function twoSum(numbers, target) { let i,j; for(i=0;i<numbers.length;i++){ for(j=0;j<numbers.length;j++){ if(i!=j){ if(numbers[i]+numbers[j]==target){ return[i,j] } } } } }

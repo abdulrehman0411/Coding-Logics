@@ -1,0 +1,1 @@
+export const towerBuilder = (nFloors: number): string[] => { let str: string = "" let strng: string[] = []; let i, j, k: number = 0; for (i = 0; i < nFloors; i++) { str = "" for (k = nFloors; k > i + 1; k--) { str += " " } for (j = 0; j <= i * 2; j++) { str += "*"; } for (k = nFloors; k > i + 1; k--) { str += " " } strng.push(str); } return strng; }
